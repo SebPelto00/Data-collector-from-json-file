@@ -1,0 +1,5 @@
+{
+    "identifier" = "ABC-123", 
+    "location" = 15701, 
+    "type" = "LoRa-sensor"
+}
