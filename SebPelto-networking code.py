@@ -1,5 +1,3 @@
-
-#tehtävä 2
 import json
 from os import X_OK
 my_list = {"type": "LoRa-sensor", "identifier": "ABC-123", "location": 15701}
@@ -21,8 +19,7 @@ f.write(formatted)
 
 f.close()
 
-
-#tehtävä 3
+#new task, getting the correct data and storing it into filtered measurments
 
 with open(r"C:\Users\Sebastian\OneDrive\Työpöytä\weather-data.json") as weather_data_dict:
     read_content = json.load(weather_data_dict)
