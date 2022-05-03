@@ -1,20 +1,3 @@
-#tehtävä 1
-class ListCount:
-    def __init__ (self,input_list):
-        self.list = input_list
-    
-    def count_words(self):
-        count = 0
-        for x in self.list:
-            if (len(x)>1 and x[0] == x[len(x)-1]):
-                count = count + 1
-        print(count)
-
-input = (["aura","koff","sandels","karhu","heineken","olut","olivo","urhu"])
-mylist = ListCount(input)
-mylist.count_words()
-#Gives answer 4
-
 
 #tehtävä 2
 import json
